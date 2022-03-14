@@ -15,6 +15,6 @@
        Insertionsort: O(n^2);
        
  ->CONCLUZIE:
-   Incercand sa creez un clasament in functie de performanta fiecarei sortari, am observat ca nu se poate gasi un algoritm de sortare genral optim, eficienta fiecaruia depinzand de setul de date de intrare.
+    Incercand sa creez un clasament in functie de performanta fiecarei sortari, am observat ca nu se poate gasi un algoritm de sortare genral optim, eficienta fiecaruia depinzand de setul de date de intrare.
  
 
