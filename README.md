@@ -1,20 +1,19 @@
-# PROIECT1_SD
+# Data Structure Project
 
- -> Scopul acestui proiect este compararea performantei a 5 algoritmi (Mergesort, Heapsort, Radixsort, Insertionsort, Shellsort) intre ei, dar si cu algoritmul nativ al limbajului c++(sort).
- 
- -> Am generat vectorii utilizand mt19937_64 si uniform_int_distribution.
- 
- -> Observarea timpilor de executie a fiecarei sortari este realizata cu ajutorul librariei chrono, iar rezultatul este afisat in secunde.
- 
- -> COMPLEXITATI:
-       Radixsort: O(p*n), unde p este numarul de cifre ale fiecarui numar;
-       Mergesort: O(nlogn);
-       Shellsort: best case: O(nlogn),
-                  worst case: O(n^2);
-       Heapsort: O(nlongn);
-       Insertionsort: O(n^2);
-       
- ->CONCLUZIE:
-    Incercand sa creez un clasament in functie de performanta fiecarei sortari, am observat ca nu se poate gasi un algoritm de sortare genral optim, eficienta fiecaruia depinzand de setul de date de intrare.
- 
+-> The purpose of this project is to compare the performance of 5 algorithms (Mergesort, Heapsort, Radixsort, Insertionsort, Shellsort) among themselves, as well as with the native C++ algorithm (sort).
+
+-> The vectors were generated using mt19937_64 and uniform_int_distribution.
+
+-> The execution times of each sorting algorithm are measured using the chrono library, and the results are displayed in seconds.
+
+-> COMPLEXITIES:
+Radixsort: O(p*n), where p is the number of digits in each number;
+Mergesort: O(nlogn);
+Shellsort: best case: O(nlogn),
+worst case: O(n^2);
+Heapsort: O(nlogn);
+Insertionsort: O(n^2);
+
+-> CONCLUSION:
+Trying to create a ranking based on the performance of each sorting algorithm, it was observed that there is no universally optimal sorting algorithm, as the efficiency of each depends on the input dataset.
 
